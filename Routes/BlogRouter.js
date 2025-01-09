@@ -1,6 +1,6 @@
 const { Router } = require("express");
 const isAuth = require("../Middleware/isAuth");
-const BlogModel = require("../model/BlogSchema");
+const BlogModel = require("../Model/BlogSchema");
 const BlogRouter = Router();
 
 BlogRouter.post("/createblog", isAuth, async (req, res) => {
