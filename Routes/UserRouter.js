@@ -3,7 +3,7 @@ const bcrypt = require("bcrypt");
 require("dotenv").config();
 const jwt = require("jsonwebtoken");
 const nodemailer = require("nodemailer");
-const UserModel = require("../model/UserSchema");
+const UserModel = require("../Model/UserSchema");
 const UserRouter = Router();
 
 let otpStore = {};
