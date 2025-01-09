@@ -13,8 +13,8 @@ app.use('/',UserRouter)
 app.use('/',BlogRouter)
 
 
-app.listen(process.env.port,()=>{
+app.listen(process.env.PORT,()=>{
   connect()
-  console.log(`server running at ${process.env.port}`);
+  console.log(`server running at ${process.env.PORT}`);
   
 })
